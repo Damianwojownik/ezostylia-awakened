@@ -203,7 +203,7 @@
 
     <header>
         <div>MISJE NIEZŁOMNYCH <span id="current-room-info" style="color: #666; font-size: 12px; margin-left: 20px;"></span></div>
-        <div id="consciousness-level">Poziom Świadomości: 1 (Przebudzenie)</div>
+        <div id="consciousness-level">Poziom Świadomości: 1 (Przebudzenie) <a href="https://customer-assets.emergentagent.com/wingman/9bd7ba9f-66b0-4678-96fa-aec7350dca0b/attachments/f4033572228e42879b9b41e98f8f9993_ezostylia_pitch_deck.pdf" target="_blank" style="color: var(--gold); margin-left: 20px; font-size: 12px;">📄 POBIERZ PITCH DECK</a></div>
     </header>
 
     <div id="app">
@@ -234,7 +234,7 @@
             <!-- Matryca View -->
             <div id="matrix-view" class="view">
                 <h3>Twoja Matryca Energetyczna</h3>
-                <p>Zapisz stan swojej świadomości. Dane te są kluczowe dla AI w celu personalizacji misji.</p>
+                <p>Zapisz stan swojej świadomości. Dane te są kluczowe dla AI v celu personalizacji misji.</p>
                 <div class="matrix-grid">
                     <div class="matrix-item">
                         <label>1. Emocje</label>
@@ -435,7 +435,7 @@
                 this.matrix[data.date] = data;
                 localStorage.setItem('matrix_data', JSON.stringify(this.matrix));
                 
-                this.addChatMessage('MENTOR AI', "Twoja matryca została zapisana w polu morfogenetycznym. To pomoże mi dostosować Twoje kolejne wyzwania.");
+                this.addChatMessage('MENTOR AI', "Twoja matryca została zapisana v polu morfogenetycznym. To pomoże mi dostosować Twoje kolejne wyzwania.");
                 this.updateConsciousness(5);
             }
 
@@ -500,7 +500,7 @@
                     <div class="choices-container">
                         <button class="btn" onclick="game.makeChoice(15, -5, 'Stawiam jasną granicę i idę dalej')">Stawiam granicę</button>
                         <button class="btn" onclick="game.makeChoice(-10, 10, 'Próbuję ją udobruchać i negocjować')">Negocjuję</button>
-                        <button class="btn" onclick="game.makeChoice(5, 15, 'Dzielę się tym, jak się czuję w tej sytuacji')">Wyrażam uczucia</button>
+                        <button class="btn" onclick="game.makeChoice(5, 15, 'Dzielę się tym, jak się czuję v tej sytuacji')">Wyrażam uczucia</button>
                     </div>
                 `;
             }
@@ -540,8 +540,8 @@
                 // Mock AI response based on Matrix
                 setTimeout(() => {
                     const response = this.user.stats.asert < 40 
-                        ? "Widzę, że wciąż boisz się odrzucenia. Twoja matryca wskazuje na blokadę w granicach. Spróbujmy ćwiczenia z oddechem."
-                        : "Twoja siła rośnie. Jesteś gotowy na misję w Egipcie, gdzie zmierzysz się z własną mocą.";
+                        ? "Widzę, że wciąż boisz się odrzucenia. Twoja matryca wskazuje na blokadę v granicach. Spróbujmy ćwiczenia z oddechem."
+                        : "Twoja siła rośnie. Jesteś gotowy na misję v Egipcie, gdzie zmierzysz się z własną mocą.";
                     chat.innerHTML += `<p style="color:var(--accent)"><b>Mentor AI:</b> ${response}</p>`;
                     chat.scrollTop = chat.scrollHeight;
                 }, 1000);
