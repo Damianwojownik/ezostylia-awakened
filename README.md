@@ -14,7 +14,7 @@ Redefining the $4.5 trillion wellness market by moving beyond static apps into "
 
 ### Assets in this Repository
 - `index.html`: Functional multiplayer prototype (BroadcastChannel based).
-- `ezostylia_pitch_deck.pdf`: Investor presentation for venture capital.
+- [Download Investor Pitch Deck (PDF)](https://customer-assets.emergentagent.com/wingman/9bd7ba9f-66b0-4678-96fa-aec7350dca0b/attachments/f4033572228e42879b9b41e98f8f9993_ezostylia_pitch_deck.pdf)
 - `KICKSTARTER_PACK_ENGLISH_V2.md`: Complete copy-paste documentation for the crowdfunding campaign.
 - `GALLERY.md`: Links and descriptions for over 80 high-resolution cinematic game assets.
 
