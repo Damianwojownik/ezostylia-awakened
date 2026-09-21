@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <!-- Homepage -->
   <url>
@@ -13,27 +12,24 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ezostylia.com/en/"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://ezostylia.com/de/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ezostylia.com/"/>
-    <image:image>
-      <image:loc>https://ezostylia.com/landing-hero.webp</image:loc>
-      <image:title>Ezostylia — Tarot, Runy, Horoskop i Mapa Życia</image:title>
-    </image:image>
   </url>
 
   <!-- Tarot -->
   <url>
     <loc>https://ezostylia.com/tarot</loc>
     <lastmod>2026-09-21</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="pl" href="https://ezostylia.com/tarot"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ezostylia.com/en/tarot"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ezostylia.com/de/tarot"/>
   </url>
 
   <!-- Numerologia -->
   <url>
     <loc>https://ezostylia.com/numerologia</loc>
     <lastmod>2026-09-21</lastmod>
-    <changefreq>weekly</changefreq>
+    <changefreq>daily</changefreq>
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="pl" href="https://ezostylia.com/numerologia"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ezostylia.com/en/numerologia"/>
@@ -47,11 +43,28 @@
     <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="pl" href="https://ezostylia.com/horoskop"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ezostylia.com/en/horoskop"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ezostylia.com/de/horoskop"/>
   </url>
 
-  <!-- Horoskop Dzienny -->
+  <!-- Matryca Przeznaczenia -->
   <url>
-    <loc>https://ezostylia.com/horoskop-dzienny</loc>
+    <loc>https://ezostylia.com/matryca-przeznaczenia</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Tarot na Dzis -->
+  <url>
+    <loc>https://ezostylia.com/tarot-na-dzis.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Runa Dnia -->
+  <url>
+    <loc>https://ezostylia.com/runa-dnia.html</loc>
     <lastmod>2026-09-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
@@ -62,17 +75,49 @@
     <loc>https://ezostylia.com/runy</loc>
     <lastmod>2026-09-21</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="pl" href="https://ezostylia.com/runy"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://ezostylia.com/en/runy"/>
   </url>
 
+  <!-- Sennik -->
+  <url>
+    <loc>https://ezostylia.com/sennik</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Medytacje -->
+  <url>
+    <loc>https://ezostylia.com/medytacje</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Blog -->
   <url>
-    <loc>https://ezostylia.com/blog/</loc>
+    <loc>https://ezostylia.com/blog</loc>
     <lastmod>2026-09-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
+  </url>
+
+  <!-- Mapa Zycia -->
+  <url>
+    <loc>https://ezostylia.com/mapa-zycia</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Horoskop Dzienny -->
+  <url>
+    <loc>https://ezostylia.com/horoskop-dzienny</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
 
   <!-- AI Duchowe -->
@@ -99,7 +144,7 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Kalkulator Drogi Życia -->
+  <!-- Kalkulator Drogi Zycia -->
   <url>
     <loc>https://ezostylia.com/kalkulator-drogi-zycia.html</loc>
     <lastmod>2026-09-21</lastmod>
