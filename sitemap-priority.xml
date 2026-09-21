@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://ezostylia.com/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ezostylia.com/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ezostylia.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ezostylia.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ezostylia.com/"/>
+    <image:image>
+      <image:loc>https://ezostylia.com/landing-hero.webp</image:loc>
+      <image:title>Ezostylia — Tarot, Runy, Horoskop i Mapa Życia</image:title>
+    </image:image>
+  </url>
+
+  <!-- Tarot -->
+  <url>
+    <loc>https://ezostylia.com/tarot</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ezostylia.com/tarot"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ezostylia.com/en/tarot"/>
+  </url>
+
+  <!-- Numerologia -->
+  <url>
+    <loc>https://ezostylia.com/numerologia</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ezostylia.com/numerologia"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ezostylia.com/en/numerologia"/>
+  </url>
+
+  <!-- Horoskop -->
+  <url>
+    <loc>https://ezostylia.com/horoskop</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ezostylia.com/horoskop"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ezostylia.com/en/horoskop"/>
+  </url>
+
+  <!-- Horoskop Dzienny -->
+  <url>
+    <loc>https://ezostylia.com/horoskop-dzienny</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Runy -->
+  <url>
+    <loc>https://ezostylia.com/runy</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ezostylia.com/runy"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ezostylia.com/en/runy"/>
+  </url>
+
+  <!-- Blog -->
+  <url>
+    <loc>https://ezostylia.com/blog/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- AI Duchowe -->
+  <url>
+    <loc>https://ezostylia.com/ai-duchowe</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Chiromancja -->
+  <url>
+    <loc>https://ezostylia.com/chiromancja</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Knowledge Base -->
+  <url>
+    <loc>https://ezostylia.com/knowledge</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Kalkulator Drogi Życia -->
+  <url>
+    <loc>https://ezostylia.com/kalkulator-drogi-zycia.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Kalkulator Matrycy Losu -->
+  <url>
+    <loc>https://ezostylia.com/kalkulator-matrycy-losu.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Kalkulator Runy Urodzeniowej -->
+  <url>
+    <loc>https://ezostylia.com/kalkulator-runy-urodzeniowej.html</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Astrologia -->
+  <url>
+    <loc>https://ezostylia.com/astro</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- English homepage -->
+  <url>
+    <loc>https://ezostylia.com/en/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://ezostylia.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ezostylia.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ezostylia.com/"/>
+  </url>
+
+  <!-- German homepage -->
+  <url>
+    <loc>https://ezostylia.com/de/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="de" href="https://ezostylia.com/de/"/>
+    <xhtml:link rel="alternate" hreflang="pl" href="https://ezostylia.com/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ezostylia.com/"/>
+  </url>
+
+  <!-- Kompatybilnosc -->
+  <url>
+    <loc>https://ezostylia.com/kompatybilnosc/</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Ezostylia Kingdoms (Game) -->
+  <url>
+    <loc>https://ezostylia.com/ezostylia-kingdoms</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Polecaj / Referral -->
+  <url>
+    <loc>https://ezostylia.com/polecaj</loc>
+    <lastmod>2026-09-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+</urlset>
