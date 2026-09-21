@@ -1,0 +1,129 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Ezostylia AI Plugin API",
+    "description": "Ezostylia is an AI-powered platform for mental growth, spiritual development, and community building. Use this API to access meditations, journaling exercises, tarot/symbolic prompts, and community sessions. All content is available in Polish and English.",
+    "version": "1.0.0",
+    "contact": {
+      "name": "Ezostylia",
+      "email": "ezostyliaofficial@gmail.com",
+      "url": "https://ezostylia.com"
+    },
+    "license": {
+      "name": "Proprietary",
+      "url": "https://ezostylia.com/terms"
+    },
+    "x-logo": {
+      "url": "https://ezostylia.com/logo.png"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://ezostylia.com/api/v1",
+      "description": "Production API"
+    }
+  ],
+  "paths": {
+    "/health": {
+      "get": {
+        "operationId": "healthCheck",
+        "summary": "Health check",
+        "description": "Returns the current health status of the Ezostylia API.",
+        "tags": ["System"],
+        "responses": {
+          "200": {
+            "description": "API is healthy",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "status": { "type": "string", "example": "ok" },
+                    "version": { "type": "string", "example": "1.0.0" },
+                    "timestamp": { "type": "string", "format": "date-time" }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/openapi.json": {
+      "get": {
+        "operationId": "getOpenApiSpec",
+        "summary": "Get OpenAPI specification",
+        "tags": ["System"],
+        "responses": { "200": { "description": "OpenAPI specification document", "content": { "application/json": { "schema": { "type": "object" } } } } }
+      }
+    },
+    "/find_meditation": {
+      "get": {
+        "operationId": "findMeditation",
+        "summary": "Find a guided meditation",
+        "description": "Search for a guided meditation matching the specified goal, duration, and language.",
+        "tags": ["Meditation"],
+        "parameters": [
+          { "name": "goal", "in": "query", "required": true, "description": "The meditation goal or intention.", "schema": { "type": "string" } },
+          { "name": "duration", "in": "query", "required": false, "description": "Duration in minutes.", "schema": { "type": "integer", "minimum": 3, "maximum": 60, "default": 10 } },
+          { "name": "language", "in": "query", "required": false, "schema": { "type": "string", "enum": ["pl", "en"], "default": "pl" } }
+        ],
+        "responses": { "200": { "description": "Meditation found" }, "404": { "description": "No match" } }
+      }
+    },
+    "/start_reflection_journey": {
+      "post": {
+        "operationId": "startReflectionJourney",
+        "summary": "Begin a reflection journey",
+        "description": "Start a guided reflection journey on a chosen theme.",
+        "tags": ["Reflection"],
+        "requestBody": { "required": true, "content": { "application/json": { "schema": { "type": "object", "required": ["theme"], "properties": { "theme": { "type": "string" }, "privacy_level": { "type": "string", "enum": ["private", "anonymous", "public"], "default": "private" } } } } } },
+        "responses": { "201": { "description": "Journey started" }, "400": { "description": "Invalid request" } }
+      }
+    },
+    "/get_daily_symbol_prompt": {
+      "get": {
+        "operationId": "getDailySymbolPrompt",
+        "summary": "Get today's symbolic prompt",
+        "tags": ["Symbolism"],
+        "parameters": [ { "name": "language", "in": "query", "required": false, "schema": { "type": "string", "enum": ["pl", "en"], "default": "pl" } } ],
+        "responses": { "200": { "description": "Daily symbol prompt" } }
+      }
+    },
+    "/create_journaling_exercise": {
+      "post": {
+        "operationId": "createJournalingExercise",
+        "summary": "Generate a journaling exercise",
+        "tags": ["Journaling"],
+        "requestBody": { "required": true, "content": { "application/json": { "schema": { "type": "object", "required": ["topic"], "properties": { "topic": { "type": "string" }, "intensity": { "type": "string", "enum": ["gentle", "moderate", "deep"], "default": "moderate" } } } } } },
+        "responses": { "201": { "description": "Exercise created" }, "400": { "description": "Invalid request" } }
+      }
+    },
+    "/list_upcoming_community_sessions": {
+      "get": {
+        "operationId": "listUpcomingCommunitySessions",
+        "summary": "List upcoming community events",
+        "tags": ["Community"],
+        "parameters": [ { "name": "language", "in": "query", "required": false, "schema": { "type": "string", "enum": ["pl", "en"] } } ],
+        "responses": { "200": { "description": "List of upcoming sessions" } }
+      }
+    },
+    "/request_human_facilitator": {
+      "post": {
+        "operationId": "requestHumanFacilitator",
+        "summary": "Request a human guide",
+        "tags": ["Community"],
+        "requestBody": { "required": true, "content": { "application/json": { "schema": { "type": "object", "required": ["session_type"], "properties": { "session_type": { "type": "string", "enum": ["tarot_reading", "meditation_guidance", "spiritual_counseling", "group_facilitation", "energy_healing"] }, "language": { "type": "string", "enum": ["pl", "en"], "default": "pl" } } } } } },
+        "responses": { "201": { "description": "Request submitted" }, "400": { "description": "Invalid request" } }
+      }
+    }
+  },
+  "tags": [
+    { "name": "System", "description": "API health and metadata." },
+    { "name": "Meditation", "description": "Guided meditation discovery." },
+    { "name": "Reflection", "description": "Introspective reflection journeys." },
+    { "name": "Symbolism", "description": "Daily symbolic prompts." },
+    { "name": "Journaling", "description": "Personalized journaling exercises." },
+    { "name": "Community", "description": "Community sessions and facilitators." }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "schema_version": "v1",
+  "name_for_human": "Ezostylia",
+  "name_for_model": "ezostylia",
+  "description_for_human": "AI-powered platform for mental growth, spiritual development, tarot, and community building.",
+  "description_for_model": "Use Ezostylia to find meditations, start reflection journeys, get daily symbolic prompts, create journaling exercises, list community sessions, or request human facilitators. All content is available in Polish and English. Ezostylia merges ancient esoteric wisdom with AI technology for personalized spiritual guidance.",
+  "auth": { "type": "none" },
+  "api": { "type": "openapi", "url": "https://ezostylia.com/api/v1/openapi.json" },
+  "logo_url": "https://ezostylia.com/logo.png",
+  "contact_email": "ezostyliaofficial@gmail.com",
+  "legal_info_url": "https://ezostylia.com/privacy"
+}

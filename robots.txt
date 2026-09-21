@@ -1,29 +1,38 @@
-# Ezostylia — robots.txt
+# Ezostylia - robots.txt
 # https://ezostylia.com
 
-# AI Bots — Welcome
+# AI Bots - Welcome
 User-agent: GPTBot
 Allow: /
+
 User-agent: ChatGPT-User
 Allow: /
-User-agent: ClaudeBot
-Allow: /
-User-agent: PerplexityBot
-Allow: /
-User-agent: Google-Extended
+
+User-agent: Claude-Web
 Allow: /
 
-# All crawlers welcome
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Default
 User-agent: *
 Allow: /
-Disallow: /api/
-Disallow: /_next/
+Disallow: /api/internal/
 Disallow: /admin/
 
 # Sitemaps
 Sitemap: https://ezostylia.com/sitemap.xml
-Sitemap: https://ezostylia.com/sitemap-priority.xml
 
-# IndexNow key
-# Key: 9292920bcde14acdbb84ac127627d515
-# Key location: https://ezostylia.com/9292920bcde14acdbb84ac127627d515.txt
+# AI Plugin & API Discovery
+# AI Plugin manifest: https://ezostylia.com/.well-known/ai-plugin.json
+# OpenAPI spec: https://ezostylia.com/api/v1/openapi.json
+# LLMs info: https://ezostylia.com/llms.txt
